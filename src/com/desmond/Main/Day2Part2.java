@@ -10,7 +10,7 @@ import java.util.TreeSet;
 public class Day2Part2 {
 	public static void main(String[] args) {
 		Scanner s = new Scanner(System.in);
-		SortedSet<String> sset = new TreeSet<String>(Comparator.comparingInt(Integer::valueOf));
+		SortedSet<String> sset = new TreeSet<String>(Comparator.comparingInt(Integer::valueOf)); //SortedSet not needed, but this code is derived from part 1, so not much changed.
 		
 		int sum = 0;
 		
